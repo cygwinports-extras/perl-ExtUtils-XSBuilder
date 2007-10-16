@@ -1,0 +1,6 @@
+category: Devel Perl
+requires: perl perl-Parse-RecDescent perl-Tie-IxHash
+sdesc: "Perl C header to XS parser"
+ldesc: "ExtUtils::XSBuilder is a set modules to parse C header files and 
+create XS glue code and documentation out of it. Idealy this allows to 
+'write' an interface to a C library without coding a line."
