@@ -5,14 +5,13 @@ XS glue code and documentation out of it. Idealy this allows to "write"
 an interface to a C library without coding a line.
 
 Runtime requirements:
-  perl-5.8.8-4
-  perl-Parse-RecDescent-1.95.1-1
-  perl-Tie-IxHash-1.21-1
+  perl-5.10.0-4
+  perl-Parse-RecDescent-1.95.1-2
+  perl-Tie-IxHash-1.21-2
 
 Build requirements:
-  cygport-0.3.6-1
+  cygport-0.3.11-1
   make-3.81-1
-  perl-5.8.8-4
 
 Canonical website:
   http://search.cpan.org/~grichter/ExtUtils-XSBuilder/
@@ -37,21 +36,19 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-ExtUtils-XSBuilder.sh
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder.pod
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/C/grammar.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/CallbackMap.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/FunctionMap.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/MapUtil.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/PODTemplate.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/ParseSource.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/StructureMap.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/TypeMap.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/XSBuilder/WrapXS.pm
-  /usr/lib/perl5/vendor_perl/5.8/ExtUtils/xsbuilder.osc2002.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/ExtUtils/XSBuilder/.packlist
-  /usr/share/doc/Cygwin/perl-ExtUtils-XSBuilder-0.28.README
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder.pod
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/C/grammar.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/CallbackMap.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/FunctionMap.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/MapUtil.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/PODTemplate.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/ParseSource.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/StructureMap.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/TypeMap.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/XSBuilder/WrapXS.pm
+  /usr/lib/perl5/vendor_perl/5.10/ExtUtils/xsbuilder.osc2002.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/ExtUtils/XSBuilder/.packlist
   /usr/share/doc/perl-ExtUtils-XSBuilder-0.28/Changes
   /usr/share/doc/perl-ExtUtils-XSBuilder-0.28/README
   /usr/share/man/man3/ExtUtils.XSBuilder.3pm.gz
@@ -59,11 +56,13 @@ Files included in the binary package:
   /usr/share/man/man3/ExtUtils.XSBuilder.ParseSource.3pm.gz
   /usr/share/man/man3/ExtUtils.XSBuilder.WrapXS.3pm.gz
   /usr/share/man/man3/ExtUtils.xsbuilder.osc2002.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/ExtUtils-XSBuilder.pod
 
 ------------------
 
 Port Notes:
+
+----- version 0.28-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 0.28-1 -----
 Initial release for Cygwin.
